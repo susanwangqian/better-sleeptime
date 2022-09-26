@@ -21,7 +21,6 @@ function handleOnClick() {
     // hh = ampm === "PM" ? hh + 12 : hh;
     hh = ampm === "PM" ? Number.parseInt(hh) + 12 : hh;
 
-  
     let now = new Date();
     // allow 14 minutes to fall sleep!
     // now.setMinutes(now.getMinutes() + 14);
