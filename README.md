@@ -21,6 +21,10 @@ git diff commit_id1 commit_id2 // look at differences of two commits
 
 git reset --hard commit_id_previous // go back to the previous version
 
+git add . // add & stage all
+
+touch .gitignore // ignore system files
+
 ————
 
 ls -al // show all folders, including the hidden ones (don’t work with hidden ones!)
@@ -28,3 +32,5 @@ ls -al // show all folders, including the hidden ones (don’t work with hidden 
 rm -rf .git // remove .git
 
 touch README.md // create README file
+
+code -r index.html // open index.html file in vscode
