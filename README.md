@@ -13,6 +13,8 @@ git: version control system; staging and commit; track changes
 
 github: post & host repositories
 
+github pages: deploy application
+
 ————
 
 git init -b main // tell git to track changes in this folder
