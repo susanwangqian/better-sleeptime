@@ -11,6 +11,8 @@ The SleepTime App is made using basic HTML, CSS, and JavaScript.
 
 git: version control system; staging and commit; track changes
 
+github: post & host repositories
+
 ————
 
 git init -b main // tell git to track changes in this folder
