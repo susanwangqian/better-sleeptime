@@ -29,6 +29,8 @@ git add . // add & stage all
 
 touch .gitignore // tell git to ignore system files, etc.
 
+git clone github_link . // clone into current folder
+
 ————
 
 ls -al // show all folders, including the hidden ones (don’t work with hidden ones!)
