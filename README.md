@@ -15,9 +15,16 @@ git: version control system; staging and commit; track changes
 
 git init -b main // tell git to track changes in this folder
 
+git log --pretty=oneline // simple version of log
+
+git diff commit_id1 commit_id2 // look at differences of two commits
+
+git reset --hard commit_id_previous // go back to the previous version
+
 ————
 
 ls -al // show all folders, including the hidden ones (don’t work with hidden ones!)
 
 rm -rf .git // remove .git
+
 touch README.md // create README file
