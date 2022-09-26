@@ -1,3 +1,12 @@
+const colors = [
+  "white",
+  "red",
+  "white",
+  "red",
+  "white",
+  "red",
+]
+
 function handleOnClick() {
     let output = document.querySelector(".output");
     output.style.display = "block";
@@ -12,7 +21,12 @@ function handleOnClick() {
     // calculate sleep cycles!
     for (let i = 1; i <= 6; i++) {
       now.setMinutes(now.getMinutes() + 90);
-      hours.innerHTML += now.toLocaleTimeString("en-US", { timeStyle: "short" }) + "<br />";
+      // should work exactly the same as sleeptime1!
+      let elm = document.createElement("div");
+      elm.innerText = 
+        now.toLocaleTimeString("en-US", { timeStyle: "short" });
+      elm.style.color = colors[i]; // alternate between colors
+      hours.appendChild(elm);
     } 
   }
   
