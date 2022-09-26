@@ -13,7 +13,7 @@ git: version control system; staging and commit; track changes
 
 github: post & host repositories
 
-github pages: deploy application
+github pages: deploy application (Settings -> Pages -> branch: select "main" & save)
 
 ————
 
