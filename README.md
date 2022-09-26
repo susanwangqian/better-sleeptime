@@ -23,7 +23,7 @@ git reset --hard commit_id_previous // go back to the previous version
 
 git add . // add & stage all
 
-touch .gitignore // ignore system files
+touch .gitignore // tell git to ignore system files, etc.
 
 ————
 
